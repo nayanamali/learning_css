@@ -1,13 +1,13 @@
-h3{
+/*h3{
     color:blue;
     background-color:yellowgreen;
     font-size:30px;
-}
-h1{
+}*/
+/*h1{
     color:red;
     background-color:powderblue;
     font-size:50px;
-}
+}*/
 .t_upper{
        text-transform:uppercase;
 }
@@ -149,4 +149,99 @@ img{
     margin-left:20px;
     border-color:blueviolet yellow green magenta;
 }
-  
+.box_model1{
+       border: 5px solid black;
+       margin: 40px;
+       padding:30px;
+}
+.box_model2{
+      border:5px solid green;
+      margin: 20px 40px 20px 40px;
+      padding: 50px 30px 50px 30px;
+}
+.box_model3{
+      border:5px solid grey;
+      margin: 20px 40px 20px 40px;
+      padding: 50px 30px 50px 30px;
+      border-radius:10px;
+      box-shadow: 5px 5px 6px grey;
+}
+
+.h1{
+      margin: 50px 30px 50px 30px;
+      padding: 20px 10px 20px 10px;
+      filter: drop-shadow(5px 5px 6px grey);
+}
+.y21{
+      margin: 50px;
+      color:black;
+      text-shadow: 5px 5px 6px grey;
+      background-color: white;
+      padding: 50px 30px 50px 30px;
+}
+.linear1{
+          background: linear-gradient(red,green,blue);
+          height:200px;
+}
+.linear12{
+          background: linear-gradient(to right,red,green,blue);
+          height:200px;
+}
+.linear123{
+          background: linear-gradient(orange,white,green);
+          height:200px;
+}
+.l21{
+          padding-top: 70px;
+          text-align:center;
+          color:blue;
+}
+.l22{
+          padding-top: 70px;
+          text-align:center;
+}
+.radial{
+    background:radial-gradient(circle,red,white,blue,black);
+    height:400px;
+    margin-top:50px;
+    margin-bottom:40px;
+}
+.i21{
+       height:200px;
+       filter:drop-shadow(6px 6px 6px grey);
+       margin-top:100px;
+       margin-left:550px;
+       border-radius: 50%;;
+}
+.conic{
+        height: 600px;
+        background:conic-gradient(from 90deg,blue,red,green,yellow) ;
+}
+.c1{
+    background-image: url("/images/bali.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 450px;
+}
+.c2{
+      text-align:center;
+      font-size:50px;
+      color:white;
+      font-weight:bolder ;
+      padding-top:160px;
+}
+.c4{
+      text-align:center;
+      font-size:50px;
+      color:black;
+      font-weight:bolder ;
+      padding-top:160px;
+}
+
+.c3{
+      background-image:url("/images/pixel.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      height:450px;
+      width: 400px;
+}
