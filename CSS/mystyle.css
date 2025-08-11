@@ -25,15 +25,20 @@
 }
 .t_under{
     text-decoration:underline;
+    text-decoration-style: solid;
 }
 .t_over{
     text-decoration:overline;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
 }
 .t_line{
     text-decoration:line-through;
+    text-decoration-color: red;
+  text-decoration-style: wavy;
 }
 .t_decor{
-    text-decoration: underline overline line-through;
+    text-decoration: underline overline line-through red double 5px;
 }
 .t_line_height{
     line-height:30px;
@@ -42,6 +47,21 @@
 .t_indent{
       text-indent:183px;
       font-size:20px;
+}
+.t_indent2{
+      font-size:20px;
+      text-align-last:right;
+      white-space: nowrap;
+}
+.t_indent3{
+      font-size:20px;
+      text-align-last:center;
+}
+.t_indent4{
+      font-size:20px;
+      text-align-last:left;
+      direction: rtl;
+  unicode-bidi: bidi-override;
 }
 .l_space{
     letter-spacing:20px;
@@ -55,7 +75,7 @@
     color:aqua;
     text-align:center;
     font-size:45px;
-    text-shadow:3px 6px 6px red;
+    /*text-shadow:3px 6px 6px red;*/ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     background-color: white;
 }
 .t_shadow2{
@@ -113,6 +133,14 @@
 }
 .font_family2{
     font-family:monospace;
+    font-size:20px;
+}
+.font_family4{
+    font-family:cursive;
+    font-size:20px;
+}
+.font_family5{
+    font-family:fantasy;
     font-size:20px;
 }
 .font_family3{
@@ -238,10 +266,77 @@ img{
       padding-top:160px;
 }
 
+
 .c3{
       background-image:url("/images/pixel.jpg");
       background-repeat:no-repeat;
       background-size:cover;
       height:450px;
       width: 400px;
+}
+
+.flex-items{
+    background-color: darkmagenta;
+    width:200px;
+    height:150px;
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:20px;
+    margin-top:20px;
+}
+.flex-item img{
+    width:200px;
+    height:150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:20px;
+    margin-top:20px;
+}
+.flex-container{
+      display:flex;
+      flex-direction:row;
+      flex-wrap:wrap;
+      justify-content:center;   /*space-evenly,space-around,space-between*/   
+      align-items:center;
+      list-style:none;
+
+}
+.flex-containers{
+      display:flex;
+      flex-direction:row;
+      flex-wrap:wrap;
+      justify-content:center;  /* horizontally center */
+      align-items:center;      /*Vertically Center */
+      list-style:none;
+}
+h1{
+     color:blue;
+}
+h1:hover{
+     color:red;
+     font-size:40px;
+     background-color:yellow;
+}
+.img1{
+       border:2px solid red;
+       height:200px;
+       width:200px;
+}
+.img1:hover{
+        
+    border:2px solid blue;
+    box-shadow: 5px 5px 6px red;
+     background-image: url("/images/nature.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+input:focus{
+     background-color:red;
+     color:white;
 }

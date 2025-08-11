@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/mystyle.css" type="text/css">
+    <style>
+.s1{
+       border:2px solid red;
+       height:200px;
+       width:200px;
+       background-image: url("/images/nature.jpg");
+       background-repeat: no-repeat;
+       background-size:cover;
+}
+.s1:hover{
+        
+    border:2px solid blue;
+    box-shadow: 5px 5px 6px red;
+    background-image: url("/images/pixel.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+a:visited{
+           color:green;
+}
+h2:active{
+        color:red;
+        text-transform:lowercase;
+}
+p::first-letter{
+    color:black;
+    font-size:20px;
+    font-weight:bold;
+}
+p::first-line{
+    color:red;
+}
+p::selection{
+             color:blue;
+             background-color:yellow;
+}
+::selection{
+     color:green;
+     background-color:magenta;
+}
+    </style>
+</head>
+<body>
+     <h1> Hello World!!</h1>
+     <h2> Hello World good Morning!!</h2>
+     <div class="s1"></div>
+     <input type="text"><br>
+     <a href="https://www.google.com/">Google.com</a><br>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum praesentium laborum similique fugiat molestiae magnam blanditiis ea labore enim ab omnis itaque ut pariatur debitis iste, odio consectetur esse   aliquid?</p>
+</body>
+</html>
