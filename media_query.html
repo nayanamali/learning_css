@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            @media (min-width:320px) and (max-width:767px)
+            {
+                body{
+                        font-size: 20px;
+                        background-color:black;
+                }
+                p{
+                    display: none;
+                }
+                h1,h3{
+                    color:yellow;
+                }
+                .img1{
+                          display:none;
+                }
+            }
+            @media (min-width:768px)
+            {
+                body{
+                       background-color:green;
+                }
+            }
+            
+            @media (min-width: 1024px)
+            {
+                     body{
+                           background-color: lightsalmon;
+                     }
+            }
+            @media (min-width:1224px)
+            {
+                    body{
+                            background-color:brown;
+                    }
+            }
+            @media (min-width:850px) and (max-width: 950px)
+            {
+                    body{
+                            background-color: yellow;
+                    }
+                    h1,h3{
+                             color:blue;
+                             font-size:70px;
+                    }
+                    .img1{
+                             display: none;
+                    }
+            }
+    </style>
+</head>
+<body>
+   <h1>CSS Media Queries</h1>
+    <p> The background will change accordingly to the viewport width change</p><br><br>
+    <img class="img1" src="images/nature.jpg"  alt="nature">
+    <h3>Smartphones - <span class="details">from 320px and up</span>(min-width:320px)</h3>
+    <p>Black</p>
+    <br>
+    <h3>Tablets,iPads (portrait) - <span class="details">from 768 and up</span>(min-width:768px)</h3>
+    <p>GREEN</p>
+    <h3>Tablets,iPads (portrait) - <span class="details">from 1024 and up</span>(min-width:1024px)</h3>
+    <p>lightsalmon</p>
+    <h3>Tablets,iPads (portrait) - <span class="details">from 1224 and up</span>(min-width:1224px)</h3>
+    <p>brown</p>
+    <h3>Tablets,iPads (portrait) - <span class="details">from 1824 and up</span>(min-width:1824px)</h3>
+    <p>Yellow</p>
+    <br>
+</body>
+</html>
